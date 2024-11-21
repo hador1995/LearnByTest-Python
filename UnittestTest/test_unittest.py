@@ -1,4 +1,3 @@
-from ctypes import Array
 import unittest
 import logging
 
