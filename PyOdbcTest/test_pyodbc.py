@@ -4,7 +4,7 @@ import pyodbc
 import logging
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(filename='pyodbc_test.log', level=logging.INFO, format='%(asctime)s - %(message)s', filemode="w")
+logging.basicConfig(filename='tests.log', level=logging.INFO, format='%(asctime)s - %(name)s - %(message)s', filemode="w")
 
 class TestPyOdbcTest(unittest.TestCase):
     def test_pyodbc_version(self):
