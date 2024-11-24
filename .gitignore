@@ -163,3 +163,4 @@ cython_debug/
 /.vs/LearnByTest-Python/FileContentIndex
 /.vs/LearnByTest-Python/v17
 /.vs
+/tests.log
